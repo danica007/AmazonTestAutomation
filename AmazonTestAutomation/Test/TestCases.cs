@@ -26,9 +26,9 @@ namespace AmazonTestAutomation
         public void TestAssertPrice()
         {
             string laptop = "laptop";
-            amazon.searchItem(laptop);
-            amazon.selectItemByIndexFromResults(laptop, 0);
-            decimal price = amazon.getItemPrice();
+            amazon.SearchItem(laptop);
+            amazon.SelectItemByIndexFromResults(laptop, 0);
+            decimal price = amazon.GetItemPrice();
 
             Assert.IsTrue(price > 100, "Laptop price should be more than $100");
         }

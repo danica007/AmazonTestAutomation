@@ -6162,11 +6162,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danic\\source\\repos\\AmazonTestAutomation\\AmazonTestAutomation\\AmazonTestAutomation.csproj",
+      "projectUniqueName": "C:\\Courses\\DanicaGitHub\\AmazonTestAutomation\\AmazonTestAutomation\\AmazonTestAutomation.csproj",
       "projectName": "AmazonTestAutomation",
-      "projectPath": "C:\\Users\\danic\\source\\repos\\AmazonTestAutomation\\AmazonTestAutomation\\AmazonTestAutomation.csproj",
+      "projectPath": "C:\\Courses\\DanicaGitHub\\AmazonTestAutomation\\AmazonTestAutomation\\AmazonTestAutomation.csproj",
       "packagesPath": "C:\\Users\\danic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danic\\source\\repos\\AmazonTestAutomation\\AmazonTestAutomation\\obj\\",
+      "outputPath": "C:\\Courses\\DanicaGitHub\\AmazonTestAutomation\\AmazonTestAutomation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

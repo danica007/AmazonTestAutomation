@@ -17,7 +17,7 @@ namespace AmazonTestAutomation.Src.Application
             itemInformation = new ItemInformation(driver);
         }
 
-        public void searchItem(string itemName)
+        public void SearchItem(string itemName)
         {            
             homePage.LoadUrl();
 
@@ -31,7 +31,7 @@ namespace AmazonTestAutomation.Src.Application
             }
         }
 
-        public void selectItemByIndexFromResults(string itemName, int index) 
+        public void SelectItemByIndexFromResults(string itemName, int index) 
         {
             if (resultPage.VerifyResultPageBySearchText(itemName))
             {
@@ -43,7 +43,7 @@ namespace AmazonTestAutomation.Src.Application
             }
         }
 
-        public Decimal getItemPrice()
+        public Decimal GetItemPrice()
         {
             if (itemInformation.VerifyPageIsLoaded())
             {
